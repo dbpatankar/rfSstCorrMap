@@ -1,0 +1,26 @@
+#+title: Readme
+#+author: Digvijay Patankar
+
+The repo contains two scripts
+1. tkss_rf_sst.py
+2. tkss_rf_sst_ggplot.Py
+
+Both files open a GUI where you can enter two data files given in this repo. On the left you should provide ~rf_ind.dat~ and on the right ~sst.mnmean.nc~.
+
+* Requirements
+1. mpl_toolkits
+1. matplotlib
+1. xarray
+1. numpy
+1. pandas
+
+** About mpl_toolkits
+On ~Ubuntu~ system, you wont find module named mpl_toolkits. Try installing ~basemap~ and ~basemap-data-hires~.
+#+begin_src bash
+pip install basemap
+pip install basemap-data-hires
+#+end_src
+After this you should be able to
+#+begin_src python
+from mpl_toolkits.basemap import Basemap
+#+end_src
