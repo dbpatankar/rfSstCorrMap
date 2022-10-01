@@ -6,6 +6,7 @@ The repo contains two scripts
 2. tkss_rf_sst_ggplot.Py
 
 Both files open a GUI where you can enter two data files given in this repo. On the left you should provide ~rf_ind.dat~ and on the right ~sst.mnmean.nc~.
+the ~tkss_rf_sst_ggplot.py~ file only has ggplot style on the map.
 
 * Requirements
 1. mpl_toolkits
